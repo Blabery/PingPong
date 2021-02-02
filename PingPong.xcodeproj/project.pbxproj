@@ -15,29 +15,11 @@
 		CB13B935259A3A7A00AC7540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB13B933259A3A7A00AC7540 /* Main.storyboard */; };
 		CB13B937259A3A7D00AC7540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB13B936259A3A7D00AC7540 /* Assets.xcassets */; };
 		CB13B93A259A3A7D00AC7540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB13B938259A3A7D00AC7540 /* LaunchScreen.storyboard */; };
-		CB13B945259A3A7D00AC7540 /* Lab_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13B944259A3A7D00AC7540 /* Lab_4Tests.swift */; };
-		CB13B950259A3A7D00AC7540 /* Lab_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13B94F259A3A7D00AC7540 /* Lab_4UITests.swift */; };
+		CB761635259A81FE00AEB806 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB761634259A81FE00AEB806 /* RootVC.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CB13B941259A3A7D00AC7540 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB13B91E259A3A7A00AC7540 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB13B925259A3A7A00AC7540;
-			remoteInfo = Lab_4;
-		};
-		CB13B94C259A3A7D00AC7540 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB13B91E259A3A7A00AC7540 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CB13B925259A3A7A00AC7540;
-			remoteInfo = Lab_4;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		CB13B926259A3A7A00AC7540 /* Lab_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB13B926259A3A7A00AC7540 /* PingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB13B929259A3A7A00AC7540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB13B92B259A3A7A00AC7540 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		CB13B92D259A3A7A00AC7540 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -47,30 +29,11 @@
 		CB13B936259A3A7D00AC7540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB13B939259A3A7D00AC7540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB13B93B259A3A7D00AC7540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB13B940259A3A7D00AC7540 /* Lab_4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab_4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB13B944259A3A7D00AC7540 /* Lab_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_4Tests.swift; sourceTree = "<group>"; };
-		CB13B946259A3A7D00AC7540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB13B94B259A3A7D00AC7540 /* Lab_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab_4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB13B94F259A3A7D00AC7540 /* Lab_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_4UITests.swift; sourceTree = "<group>"; };
-		CB13B951259A3A7D00AC7540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB761634259A81FE00AEB806 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CB13B923259A3A7A00AC7540 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB13B93D259A3A7D00AC7540 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB13B948259A3A7D00AC7540 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,9 +46,7 @@
 		CB13B91D259A3A7A00AC7540 = {
 			isa = PBXGroup;
 			children = (
-				CB13B928259A3A7A00AC7540 /* Lab_4 */,
-				CB13B943259A3A7D00AC7540 /* Lab_4Tests */,
-				CB13B94E259A3A7D00AC7540 /* Lab_4UITests */,
+				CB13B928259A3A7A00AC7540 /* PingPong */,
 				CB13B927259A3A7A00AC7540 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,53 +54,42 @@
 		CB13B927259A3A7A00AC7540 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB13B926259A3A7A00AC7540 /* Lab_4.app */,
-				CB13B940259A3A7D00AC7540 /* Lab_4Tests.xctest */,
-				CB13B94B259A3A7D00AC7540 /* Lab_4UITests.xctest */,
+				CB13B926259A3A7A00AC7540 /* PingPong.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB13B928259A3A7A00AC7540 /* Lab_4 */ = {
+		CB13B928259A3A7A00AC7540 /* PingPong */ = {
 			isa = PBXGroup;
 			children = (
-				CB13B929259A3A7A00AC7540 /* AppDelegate.swift */,
-				CB13B92B259A3A7A00AC7540 /* GameScene.sks */,
 				CB13B92D259A3A7A00AC7540 /* Actions.sks */,
+				CB13B92B259A3A7A00AC7540 /* GameScene.sks */,
+				CB13B929259A3A7A00AC7540 /* AppDelegate.swift */,
 				CB13B92F259A3A7A00AC7540 /* GameScene.swift */,
 				CB13B931259A3A7A00AC7540 /* GameViewController.swift */,
-				CB13B933259A3A7A00AC7540 /* Main.storyboard */,
+				CB761634259A81FE00AEB806 /* RootVC.swift */,
 				CB13B936259A3A7D00AC7540 /* Assets.xcassets */,
 				CB13B938259A3A7D00AC7540 /* LaunchScreen.storyboard */,
+				CB13B933259A3A7A00AC7540 /* Main.storyboard */,
+				CB554CE8259A4D6200E6C803 /* Supporting Files */,
+			);
+			path = PingPong;
+			sourceTree = "<group>";
+		};
+		CB554CE8259A4D6200E6C803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				CB13B93B259A3A7D00AC7540 /* Info.plist */,
 			);
-			path = Lab_4;
-			sourceTree = "<group>";
-		};
-		CB13B943259A3A7D00AC7540 /* Lab_4Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CB13B944259A3A7D00AC7540 /* Lab_4Tests.swift */,
-				CB13B946259A3A7D00AC7540 /* Info.plist */,
-			);
-			path = Lab_4Tests;
-			sourceTree = "<group>";
-		};
-		CB13B94E259A3A7D00AC7540 /* Lab_4UITests */ = {
-			isa = PBXGroup;
-			children = (
-				CB13B94F259A3A7D00AC7540 /* Lab_4UITests.swift */,
-				CB13B951259A3A7D00AC7540 /* Info.plist */,
-			);
-			path = Lab_4UITests;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB13B925259A3A7A00AC7540 /* Lab_4 */ = {
+		CB13B925259A3A7A00AC7540 /* PingPong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB13B954259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "Lab_4" */;
+			buildConfigurationList = CB13B954259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "PingPong" */;
 			buildPhases = (
 				CB13B922259A3A7A00AC7540 /* Sources */,
 				CB13B923259A3A7A00AC7540 /* Frameworks */,
@@ -149,46 +99,10 @@
 			);
 			dependencies = (
 			);
-			name = Lab_4;
+			name = PingPong;
 			productName = Lab_4;
-			productReference = CB13B926259A3A7A00AC7540 /* Lab_4.app */;
+			productReference = CB13B926259A3A7A00AC7540 /* PingPong.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CB13B93F259A3A7D00AC7540 /* Lab_4Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB13B957259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "Lab_4Tests" */;
-			buildPhases = (
-				CB13B93C259A3A7D00AC7540 /* Sources */,
-				CB13B93D259A3A7D00AC7540 /* Frameworks */,
-				CB13B93E259A3A7D00AC7540 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB13B942259A3A7D00AC7540 /* PBXTargetDependency */,
-			);
-			name = Lab_4Tests;
-			productName = Lab_4Tests;
-			productReference = CB13B940259A3A7D00AC7540 /* Lab_4Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CB13B94A259A3A7D00AC7540 /* Lab_4UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB13B95A259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "Lab_4UITests" */;
-			buildPhases = (
-				CB13B947259A3A7D00AC7540 /* Sources */,
-				CB13B948259A3A7D00AC7540 /* Frameworks */,
-				CB13B949259A3A7D00AC7540 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB13B94D259A3A7D00AC7540 /* PBXTargetDependency */,
-			);
-			name = Lab_4UITests;
-			productName = Lab_4UITests;
-			productReference = CB13B94B259A3A7D00AC7540 /* Lab_4UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,23 +111,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Владислав Якубец";
 				TargetAttributes = {
 					CB13B925259A3A7A00AC7540 = {
 						CreatedOnToolsVersion = 11.5;
 					};
-					CB13B93F259A3A7D00AC7540 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = CB13B925259A3A7A00AC7540;
-					};
-					CB13B94A259A3A7D00AC7540 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = CB13B925259A3A7A00AC7540;
-					};
 				};
 			};
-			buildConfigurationList = CB13B921259A3A7A00AC7540 /* Build configuration list for PBXProject "Lab_4" */;
+			buildConfigurationList = CB13B921259A3A7A00AC7540 /* Build configuration list for PBXProject "PingPong" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB13B925259A3A7A00AC7540 /* Lab_4 */,
-				CB13B93F259A3A7D00AC7540 /* Lab_4Tests */,
-				CB13B94A259A3A7D00AC7540 /* Lab_4UITests */,
+				CB13B925259A3A7A00AC7540 /* PingPong */,
 			);
 		};
 /* End PBXProject section */
@@ -246,20 +150,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB13B93E259A3A7D00AC7540 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB13B949259A3A7D00AC7540 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,42 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB761635259A81FE00AEB806 /* RootVC.swift in Sources */,
 				CB13B930259A3A7A00AC7540 /* GameScene.swift in Sources */,
 				CB13B932259A3A7A00AC7540 /* GameViewController.swift in Sources */,
 				CB13B92A259A3A7A00AC7540 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB13B93C259A3A7D00AC7540 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB13B945259A3A7D00AC7540 /* Lab_4Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB13B947259A3A7D00AC7540 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB13B950259A3A7D00AC7540 /* Lab_4UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CB13B942259A3A7D00AC7540 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB13B925259A3A7A00AC7540 /* Lab_4 */;
-			targetProxy = CB13B941259A3A7D00AC7540 /* PBXContainerItemProxy */;
-		};
-		CB13B94D259A3A7D00AC7540 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CB13B925259A3A7A00AC7540 /* Lab_4 */;
-			targetProxy = CB13B94C259A3A7D00AC7540 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CB13B933259A3A7A00AC7540 /* Main.storyboard */ = {
@@ -350,6 +212,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -374,7 +237,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				INFOPLIST_FILE = "yakubets_v.PingPong/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,6 +274,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -428,7 +293,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				INFOPLIST_FILE = "yakubets_v.PingPong/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,15 +310,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = Lab_4/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PingPong/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Lab-4";
+				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.PingPong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,106 +328,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = Lab_4/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PingPong/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Lab-4";
+				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.PingPong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CB13B958259A3A7D00AC7540 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = Lab_4Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Lab-4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab_4.app/Lab_4";
-			};
-			name = Debug;
-		};
-		CB13B959259A3A7D00AC7540 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = Lab_4Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Lab-4Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab_4.app/Lab_4";
-			};
-			name = Release;
-		};
-		CB13B95B259A3A7D00AC7540 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = Lab_4UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Lab-4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Lab_4;
-			};
-			name = Debug;
-		};
-		CB13B95C259A3A7D00AC7540 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NWU3UR5FK7;
-				INFOPLIST_FILE = Lab_4UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yakubets-v.Lab-4UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Lab_4;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB13B921259A3A7A00AC7540 /* Build configuration list for PBXProject "Lab_4" */ = {
+		CB13B921259A3A7A00AC7540 /* Build configuration list for PBXProject "PingPong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB13B952259A3A7D00AC7540 /* Debug */,
@@ -570,29 +352,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB13B954259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "Lab_4" */ = {
+		CB13B954259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "PingPong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB13B955259A3A7D00AC7540 /* Debug */,
 				CB13B956259A3A7D00AC7540 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB13B957259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "Lab_4Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB13B958259A3A7D00AC7540 /* Debug */,
-				CB13B959259A3A7D00AC7540 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB13B95A259A3A7D00AC7540 /* Build configuration list for PBXNativeTarget "Lab_4UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB13B95B259A3A7D00AC7540 /* Debug */,
-				CB13B95C259A3A7D00AC7540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
